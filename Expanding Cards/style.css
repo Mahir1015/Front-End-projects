@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.slides{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+}
+
+.images{
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    height: 360px;
+    top: 75px;
+    left: 10%;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: 1s ease;
+}
+
+#img-1{
+    background-image:url(images/1.jpg) ;
+}
+
+#img-2{
+    background-image:url(images/2.jpg) ;
+}
+
+#img-3{
+    background-image:url(images/3.jpg) ;
+}
+
+#img-4{
+    background-image:url(images/4.jpg) ;
+}
+
+.active{
+    width: 640px;
+}

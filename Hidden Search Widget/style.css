@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.container{
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+
+}
+
+.btn{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border: none;
+    background-color: white;
+    font-size: 32px;
+}
+
+.fa-search{
+    transform: translateY(50%);
+}
+
+.inp{
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    border: none;
+    outline-style: none;
+    display: none;
+}
+
+@keyframes change{
+    from {opacity: .3;}
+    to {opacity: 1;}
+}
+
+.active{
+    display: inline-block;
+    animation-name: change;
+    animation-duration: 1s;
+}
+
+
+
